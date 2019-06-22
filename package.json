@@ -1,0 +1,25 @@
+{
+  "name": "todoList",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync --files *.html,css/*.css,js/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictorLlamas/todoList.git"
+  },
+  "keywords": [],
+  "author": "Victor Llamas <victorllamas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VictorLlamas/todoList/issues"
+  },
+  "homepage": "https://github.com/VictorLlamas/todoList#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "json-server": "^0.15.0"
+  }
+}
